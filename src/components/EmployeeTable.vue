@@ -39,12 +39,13 @@
               class="muted-button"
               @click="cancelEdit(employee)"
             >Cancel</button>
+            <button>View</button>
           </td>
           <td v-else>
             <button @click="editMode(employee)">Edit</button>
             <button @click="$emit('delete:employee', employee.id)">Delete</button>
+            <button>View</button>
           </td>
-
         </tr>
       </tbody>
     </table>
@@ -84,7 +85,8 @@ export default {
 
 <style scoped>
 button {
-  margin: 0 0.5rem 0 0;
+  padding: 5px 10px;
+  margin: 0 5px 0 0;
 }
 
 input {
