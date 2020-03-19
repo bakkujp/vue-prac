@@ -1,5 +1,7 @@
 # Vue Tutorial
 
+Based on a small application created by [Tania Rascia](https://www.taniarascia.com), I'm going to expand this application with Vue. It involves some crucial functionalites such as router, state management that mentioned by [Tania Rascia](https://www.taniarascia.com) at the end of her [tutorial](https://taniarascia.com/getting-started-with-vue)
+
 We're going to create a small application with Vue. 
 
 ### [Read the tutorial](https://taniarascia.com/getting-started-with-vue) | [View the demo](https://taniarascia.github.io/vue-tutorial)
