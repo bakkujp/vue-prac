@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Employee from '@/components/Employee'
+import EmployeeView from '@/components/EmployeeView'
 
 Vue.use(Router)
 
@@ -10,6 +11,11 @@ export default new Router({
       path: '/',
       name: 'Employee',
       component: Employee
+    },
+    {
+      path: '/view',
+      name: 'EmployeeView',
+      component: EmployeeView
     }
   ]
 })

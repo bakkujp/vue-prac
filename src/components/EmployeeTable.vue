@@ -44,7 +44,7 @@
           <td v-else>
             <button @click="editMode(employee)">Edit</button>
             <button @click="$emit('delete:employee', employee.id)">Delete</button>
-            <button>View</button>
+            <button><router-link to="/view">View</router-link></button>
           </td>
         </tr>
       </tbody>
@@ -95,5 +95,8 @@ input {
 
 .empty-table {
   text-align: center;
+}
+a {
+  color: white;
 }
 </style>
