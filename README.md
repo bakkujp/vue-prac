@@ -1,35 +1,15 @@
-# Vue Tutorial
+# Introduction
 
-Bases on a small application created by [Tania Rascia](https://www.taniarascia.com), I'm going to expand this application with Vue. It involves some crucial functionalites such as router, state management that mentioned by [Tania Rascia](https://www.taniarascia.com) at the end of her [tutorial](https://taniarascia.com/getting-started-with-vue)
-
-We're going to create a small application with Vue. 
-
-### [Read the tutorial](https://taniarascia.com/getting-started-with-vue) | [View the demo](https://taniarascia.github.io/vue-tutorial)
-
-## Purpose
-
-The app will be a simple employee database and we'll learn:
-
-- How to set up Vue
-- The anatomy of a Vue file
-- How to work with data, methods, conditional statements, and events in Vue
-- How to create, update, view, and delete users (employees) from the system
-- How to make API calls for each of the above actions
-- How to use tables, forms, and form validation
-- How to host a Vue build on GitHub pages
+Bases on a small application created by [Tania Rascia](https://www.taniarascia.com), I'm going to expand her application with Vue. It involves some crucial functionalites such as router, state management, etc.. that mentioned by [Tania Rascia](https://www.taniarascia.com) at the end of her [tutorial](https://taniarascia.com/getting-started-with-vue)
 
 ## Installation
 
 ```
-git clone https://github.com/taniarascia/vue-tutorial
+git clone https://github.com/bakkujp/vue-practical.git
 cd vue-tutorial
 yarn
 yarn serve
 ```
-
-## Author
-
-- [Tania Rascia](https://www.taniarascia.com)
 
 ## License
 
