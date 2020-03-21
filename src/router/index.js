@@ -13,7 +13,7 @@ export default new Router({
       component: Employee
     },
     {
-      path: '/view',
+      path: '/view/:id',
       name: 'EmployeeView',
       component: EmployeeView
     }
