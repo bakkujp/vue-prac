@@ -44,7 +44,7 @@
           <td v-else>
             <button @click="editMode(employee)">Edit</button>
             <button @click="$emit('delete:employee', employee.id)">Delete</button>
-            <button><router-link to="/view">View</router-link></button>
+            <button><router-link :to="{ path: 'view', params: { id: 1 }}">View</router-link></button>
           </td>
         </tr>
       </tbody>

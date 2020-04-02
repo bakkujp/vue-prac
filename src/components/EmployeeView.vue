@@ -7,7 +7,7 @@
 
 <script>
   export default {
-    // name: 'EmployeeView',
+    name: 'EmployeeView',
     // data() {
     //   return {
     //     employee: {
